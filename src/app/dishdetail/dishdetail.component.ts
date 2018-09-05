@@ -8,6 +8,7 @@ import { FavoriteService } from '../services/favorite.service';
 import { ActivatedRoute, Params } from '@angular/router';
 import { Location } from '@angular/common';
 import { visibility, flyInOut, expand } from '../animations/app.animation';
+import 'rxjs/add/operator/switchMap';
 
 @Component({
   selector: 'app-dishdetail',
